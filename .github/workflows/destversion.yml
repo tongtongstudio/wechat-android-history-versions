@@ -3,6 +3,7 @@ name: Wechat Android Dest Version
 on:
   schedule:
     - cron: '0 * * * *'
+  workflow_dispatch:
     
 jobs:
   check_wechat_android_new_version:
